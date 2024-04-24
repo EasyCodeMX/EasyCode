@@ -7,9 +7,9 @@ const bodyParser = require('body-parser');
 const app = express();
 //const server = require("http").createServer(app);
 const connection = mysql.createConnection({
-    host: '127.0.0.1',
-    user: 'root',
-    password: 'HERdie3%',
+    host: 'p3plzcpnl504688.prod.phx3.secureserver.net',
+    user: 'EasyCode',
+    password: 'HERdie002003%',
     database: 'EasyCode'
   });
   app.use(cors());
